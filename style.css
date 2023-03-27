@@ -197,7 +197,7 @@ body{
 #yamir:hover{
     color: #e90b60;
 }
-@media (max-width: 407px) {
+@media (max-width: 433px) {
     .footer{
         justify-content: center;
     }
