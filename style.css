@@ -1,0 +1,204 @@
+:root{
+    --colorGris: #6b6a72f8;
+    --colorAzulclaro:#446c8c;
+    --colorCrema: #f6f4e3;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-first{
+    /* border: solid 3px rgb(0, 255, 42) !important; */
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center !important;
+    flex-direction: column !important;
+    padding-top: 2%;
+
+}
+.container-first h2{
+    color: var(--colorAzulclaro);
+    text-align: center;
+}
+
+.navbar{ 
+    /* border: solid 3px red !important; */
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+}
+.logo{
+    color: var(--colorAzulclaro) !important;
+    font-weight: 600;
+}
+.navbar .container-fluid{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.navbar .container-fluid ul{
+    margin: 0 !important;
+}
+.navbar a:hover{
+    color: var(--colorAzulclaro);
+}
+.cont-social-networks a{
+    text-decoration: none;
+    color: var(--colorAzulclaro) !important;
+    font-size: 21px;
+}
+.navbarScroll{
+    z-index: 999;
+    position: fixed !important;
+    box-shadow: var(--colorAzulclaro) 0 0px 20px;
+    margin: auto;
+    width: 90%;
+    background: #fff !important;
+}
+
+
+/* main cover */
+.cont-main-cover{
+    /* border: 1px red solid; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cont-text-title{
+    /* border: 1px blue solid; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cont-text-title h1{
+    color: var(--colorAzulclaro);
+}
+.cont-img-main{
+    /* border: 1px rgb(0, 225, 255) solid; */
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-top-right-radius: 0%;
+    padding: 5%;
+    background: var(--colorAzulclaro);
+
+}
+.cont-img-main img{
+    width: 200px;
+    border-radius: 10%;
+}
+.btn-download{
+    background: var(--colorAzulclaro);
+    color: var(--colorCrema);
+}
+.btn-download:hover{
+    border: solid 1px var(--colorAzulclaro);
+}
+@media (max-width: 969px) {
+    .cont-main-cover{
+        justify-content: center;
+    }
+    .cont-text-title{
+        margin-bottom: 6%;
+        margin-top: 6%;
+        width: 100%;
+    }
+}
+@media (max-width: 463px) {
+    .cont-img-main img{
+        width: 175px;
+    }
+}
+@media (max-width: 393px) {
+    .cont-img-main img{
+        width: 155px;
+    }
+}
+
+/* main cover end*/
+
+/* my epertise */
+.cont-expertise{
+    /* border: solid 1px red; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+.cont-expertise-items{
+    width: 100%;
+    /* border: solid 1px rgb(0, 204, 255); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-expertise{
+    /* border: solid 1px blue; */
+    width: 250px;
+    border-radius: 15px;
+    border-top-right-radius: 0%;
+    margin: 2%;
+    padding-top: 1%;
+    box-shadow: var(--colorAzulclaro) 0 1px 5px;
+}
+.card-expertise h5{
+    text-align: center;
+}
+/* my epertise end */
+
+/* About me */
+.cont-about{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.cont-about p{
+    text-align: center;
+}
+/* About me end */
+
+/* Footer */
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: var(--colorAzulclaro);
+    color: var(--colorCrema);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+}
+.footer p{
+    margin: 1.5%;
+}
+#yamir{
+    cursor: pointer;
+}
+#yamir:hover{
+    color: #e90b60;
+}
+@media (max-width: 407px) {
+    .footer{
+        justify-content: center;
+    }
+}
