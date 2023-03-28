@@ -59,7 +59,7 @@ let prevScrollpos = window.pageYOffset;
       delegate: 'a',
       type: 'image',
       gallery:{
-        enabled: true
+        enabled: false
       }
 
     });
