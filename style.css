@@ -174,6 +174,76 @@ body{
 }
 /* About me end */
 
+/* Gallery */
+.cont-gallery{
+    /* border: solid 2px blue; */
+    width: 80%;
+    margin-bottom: 6%;
+}
+.gallery{
+    /* border: solid 1px red; */
+    width: 100%;
+    margin: auto;
+}
+
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.gallery .controls .buttons{
+    height: 40px;
+    width: 140px;
+    background: #fff;
+    color: #666;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 3px 5px var(--colorAzulclaro);
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gallery .controls .buttons.active{
+    background: var(--colorTitle);
+    color: var(--colorBlanco);
+}
+.gallery .img-container{
+  
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .img-container .image{
+    /* border: solid red 1px; */
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px var(--colorAzulOscuro);
+    margin: 2%;
+    border-radius: 18px;
+
+}
+
+.gallery .img-container .image img{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* Gallery end */
+
 /* Footer */
 .footer{
     width: 80%;
@@ -197,7 +267,7 @@ body{
 #yamir:hover{
     color: #e90b60;
 }
-@media (max-width: 407px) {
+@media (max-width: 433px) {
     .footer{
         justify-content: center;
     }
