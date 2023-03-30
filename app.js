@@ -55,15 +55,15 @@
       // console.log(filter)
     });
 
-    $('.gallery').magnificPopup({
+    // $('.gallery').magnificPopup({
 
-      delegate: 'a',
-      type: 'image',
-      gallery:{
-        enabled: false
-      }
+    //   delegate: 'a',
+    //   type: 'image',
+    //   gallery:{
+    //     enabled: false
+    //   }
 
-    });
+    // });
 
     $(document).ready(function(){
       // Add smooth scrolling to all links
