@@ -35,7 +35,7 @@
     let enlaceYamir = document.getElementById("yamir");
 
     enlaceYamir.addEventListener("click", function(){
-      window.location = "http://desarrolladoryamir.ml/";
+      window.location = "https://desarrolladoryamir.netlify.app/";
     })
 
 
